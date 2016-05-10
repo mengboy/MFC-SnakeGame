@@ -49,7 +49,6 @@ public:
 	afx_msg void OnGameStart();
 	afx_msg void OnGamePause();
 	afx_msg void OnGameContinue();
-	//afx_msg void OnGameExit();
 	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	CEdit soureEdit;
 };

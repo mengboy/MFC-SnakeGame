@@ -159,8 +159,6 @@ void CSnakeGameView::OnMButtonDown(UINT nFlags, CPoint point)
 	str.Format(_T("%d,%d"), point.x, point.y);
 	AfxMessageBox(str);
 	CView::OnRButtonDown(nFlags, point);
-	//CView::OnRButtonDown(nFlags, point);
-	//CView::OnRButtonDown(nFlags, point);
 }
 
 

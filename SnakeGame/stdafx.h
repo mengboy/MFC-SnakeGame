@@ -35,18 +35,19 @@
 
 extern struct  Food
 {
+	//x，y是坐标
 	int x;
 	int y;
-	int isFood;
+	int isFood;//判断食物是否被吃
 };
 
 extern struct Snake
 {
 	int x, y;
-	int len;
-	int direct;
+	int len; //蛇长度
+	int direct; //蛇运动方向
 };
-extern int eatNum;
+extern int eatNum; //用来计吃的食物数量
 
 
 
